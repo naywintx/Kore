@@ -1,0 +1,269 @@
+repo_name: naywintx/Kore
+report_id: 3b3cf11d39dbe3cf675deb606b6788fa
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:34:14+00:00'
+requested_by: weblate
+provider: github
+branch: master
+detected_tools_count: 19
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/naywintx/Kore
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source_url: https://github.com/naywintx/Kore
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '32.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Licaon_Kter
+  last_updated_on: 2022-09-21 10:37:41.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/naywintx/Kore
+  detection_source: Repo Metadata
+- name: EventBus
+  description: An open-source library for Android and Java
+  website_url: http://greenrobot.org/eventbus/
+  version: 3.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/9610/no-img-open-source.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Synced Synapse
+  last_updated_on: 2022-09-06 16:27:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/Kore
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: mueller-ma
+  last_updated_on: 2022-02-02 19:04:56.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Jakob Linskeseder
+  last_updated_on: 2021-01-31 20:36:25.000000000 Z
+- name: Robolectric
+  description: An open-source testing framework for Android
+  website_url: http://robolectric.org/
+  version: 4.8.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2022/OavapKft_400x400.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: António Mendes Silva
+  last_updated_on: 2022-06-14 18:09:15.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Martijn Kaijser
+  last_updated_on: 2016-02-06 17:58:58.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '12.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Licaon_Kter
+  last_updated_on: 2022-09-21 10:37:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/naywintx/Kore
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  version: 20.04.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Jakob Linskeseder
+  last_updated_on: 2021-01-31 20:36:25.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.13.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Licaon_Kter
+  last_updated_on: 2022-09-21 10:37:41.000000000 Z
+  vulnerabilities:
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.13.4
+  - name: Uncontrolled Resource Consumption in Jackson-databind
+    cve_id: CVE-2022-42003
+    cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.13.4.2
+- name: org.nanohttpd:nanohttpd
+  description: Tiny, easily embeddable HTTP server in Java
+  version: 2.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Synced Synapse
+  last_updated_on: 2022-09-06 16:27:20.000000000 Z
+  vulnerabilities:
+  - name: XXS in NanoHTTPD
+    cve_id: CVE-2020-13697
+    cve_url: https://github.com/advisories/GHSA-pr5m-4w22-8483
+    detected_date: Aug 22
+    severity: moderate
+    first_patched:
+- name: com.squareup.okhttp3:okhttp
+  description: 'Null'
+  version: 4.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Licaon_Kter
+  last_updated_on: 2022-09-21 10:37:41.000000000 Z
+- name: com.squareup.picasso:picasso
+  description: A powerful image downloading and caching library for Android
+  version: '2.71828'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Licaon_Kter
+  last_updated_on: 2022-09-21 10:37:41.000000000 Z
+- name: org.jmdns:jmdns
+  description: JmDNS is a Java implementation of multi-cast DNS and can be used for
+    service registration and discovery in local area networks
+  version: 3.5.7
+  license: Apache-2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Synced Synapse
+  last_updated_on: 2022-09-06 16:27:20.000000000 Z
+- name: org.robolectric:robolectric
+  description: An alternative Android testing framework
+  version: 4.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/Kore/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Synced Synapse
+  last_updated_on: 2022-09-06 16:27:20.000000000 Z
